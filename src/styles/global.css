@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .animate-spin-slow {
+    animation: spin 8s linear infinite;
+  }
+  .animate-fade-in {
+    animation: fadeIn 1.2s ease-in;
+  }
+  .earthy-bg {
+    background: linear-gradient(135deg, #fef6e4 0%, #e9f5db 50%, #f9e7c2 100%);
+  }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(16px); }
+  to { opacity: 1; transform: translateY(0); }
+}
