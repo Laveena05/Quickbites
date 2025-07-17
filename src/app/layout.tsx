@@ -1,6 +1,6 @@
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-import './globals.css';g
+import './globals.css';
 import { PlanProvider } from '../contexts/PlanContext';
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
